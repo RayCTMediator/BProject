@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 		F74954FF23407CE9003F7A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74954FD23407CE9003F7A59 /* LaunchScreen.storyboard */; };
 		F749550223407CE9003F7A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F749550123407CE9003F7A59 /* main.m */; };
 		F7BD34BD23419641009BB1C1 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BD34BC23419641009BB1C1 /* BViewController.m */; };
-		F7BD34C12341967C009BB1C1 /* BProject.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BD34C02341967C009BB1C1 /* BProject.m */; };
+		F7BD34C423419E07009BB1C1 /* Target_BProject.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BD34C323419E07009BB1C1 /* Target_BProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		F749550123407CE9003F7A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7BD34BB23419641009BB1C1 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BViewController.h; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/BViewController.h; sourceTree = "<group>"; };
 		F7BD34BC23419641009BB1C1 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BViewController.m; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/BViewController.m; sourceTree = "<group>"; };
-		F7BD34BF2341967C009BB1C1 /* BProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BProject.h; path = ../../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/Targets/BProject.h; sourceTree = "<group>"; };
-		F7BD34C02341967C009BB1C1 /* BProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BProject.m; path = ../../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/Targets/BProject.m; sourceTree = "<group>"; };
+		F7BD34C223419E07009BB1C1 /* Target_BProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_BProject.h; path = ../../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/Targets/Target_BProject.h; sourceTree = "<group>"; };
+		F7BD34C323419E07009BB1C1 /* Target_BProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_BProject.m; path = ../../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/BProject/BProject/BProject/Targets/Target_BProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 		F7BD34BE2341965B009BB1C1 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				F7BD34BF2341967C009BB1C1 /* BProject.h */,
-				F7BD34C02341967C009BB1C1 /* BProject.m */,
+				F7BD34C223419E07009BB1C1 /* Target_BProject.h */,
+				F7BD34C323419E07009BB1C1 /* Target_BProject.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BD34C12341967C009BB1C1 /* BProject.m in Sources */,
 				F74954F723407CCD003F7A59 /* ViewController.m in Sources */,
 				F7BD34BD23419641009BB1C1 /* BViewController.m in Sources */,
+				F7BD34C423419E07009BB1C1 /* Target_BProject.m in Sources */,
 				F749550223407CE9003F7A59 /* main.m in Sources */,
 				F74954F423407CCD003F7A59 /* AppDelegate.m in Sources */,
 			);

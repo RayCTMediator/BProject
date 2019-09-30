@@ -1,5 +1,5 @@
 //
-//  BProject.h
+//  Target_BProject.h
 //  BProject
 //
 //  Created by WKL on 2019/9/30.
@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface BProject : NSObject
+@interface Target_BProject : NSObject
 
 -(UIViewController*)Action_viewController:(NSDictionary*)params ;
 
+
 @end
 
-
+ 
