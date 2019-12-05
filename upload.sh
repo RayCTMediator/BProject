@@ -7,7 +7,7 @@ NewVersionNumber=$(($VersionNumber + 1))
 #LineNumber=`grep -nE 's.version.*=' BProject.podspec | cut -d : -f1`
 #sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" BProject.podspec
 #
-#echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
+ echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 
 git add .
 git commit -am ${NewVersionNumber}
